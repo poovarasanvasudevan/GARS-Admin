@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - adminlte@localhost" uuid="f3244d80-803f-45b4-bbda-0779f489d59b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>adminlte.pg_catalog adminlte.public</schema-pattern>
+      <default-schemas>adminlte.public</default-schemas>
+    </data-source>
+  </component>
+</project>
