@@ -32,7 +32,7 @@
 
                     <!-- /.col -->
                     <div class="col-xs-4 col-xs-offset-8">
-                        <button type="button" ng-click="login()" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                        <button type="button" ng-click="login()" class="btn bg-purple btn-block btn-flat">Sign In</button>
                     </div>
                     <!-- /.col -->
                 </div>

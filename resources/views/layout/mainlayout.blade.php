@@ -33,7 +33,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="../node_modules/admin-lte/dist/css/skins/skin-red-light.min.css" rel="stylesheet"
+    <link href="../node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css" rel="stylesheet"
           type="text/css"/>
 
     <link rel="stylesheet" href="../node_modules/angular-tooltips/dist/angular-tooltips.min.css"/>
@@ -46,7 +46,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="fixed sidebar-mini skin-red-light" ng-app="global">
+<body class="fixed sidebar-mini skin-purple-light" ng-app="global">
 <div class="wrapper" ng-controller="maincontroller">
 
     <!-- Header -->

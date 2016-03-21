@@ -45,7 +45,7 @@
                     <div class="row step-footer">
 
                         <div class="pull-right">
-                            <button ng-click="processFirst(abhyasiid,terms)" class="btn btn-primary">Next&nbsp;&nbsp;<i
+                            <button ng-click="processFirst(abhyasiid,terms)" class="btn btn-flat  bg-purple">Next&nbsp;&nbsp;<i
                                         class="fa fa-arrow-right"></i>
                             </button>
                         </div>
@@ -84,13 +84,13 @@
                     <div class="row step-footer">
 
                         <div class="pull-left">
-                            <button wz-previous class="btn btn-primary"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Not
+                            <button wz-previous class="btn btn-flat  bg-purple"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Not
                                 me
                             </button>
                         </div>
 
                         <div class="pull-right">
-                            <button wz-next class="btn btn-primary">Confirm&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+                            <button wz-next class="btn btn-flat  bg-purple">Confirm&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
                             </button>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                     <div class="row step-footer">
 
                         <div class="pull-right">
-                            <button ng-click="verifiyMethod(pwd)" class="btn btn-primary">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+                            <button ng-click="verifiyMethod(pwd)" class="btn btn-flat  bg-purple">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
                             </button>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                     <div class="row step-footer">
 
                         <div class="pull-right">
-                            <button wz-next class="btn btn-primary">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+                            <button wz-next class="btn btn-flat  bg-purple">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
                             </button>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="row step-footer">
 
                         <div class="pull-right">
-                            <button wz-next class="btn btn-primary">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+                            <button wz-next class="btn btn-flat bg-purple">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
                             </button>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                     <div class="row step-footer">
 
                         <div class="pull-right">
-                            <a class="btn btn-primary" href="{{URL::to('')}}">Login Now&nbsp;&nbsp;<i
+                            <a class="btn btn-flat bg-purple" href="{{URL::to('')}}">Login Now&nbsp;&nbsp;<i
                                         class="fa fa-arrow-right"></i>
                             </a>
                         </div>
