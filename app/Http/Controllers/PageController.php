@@ -14,6 +14,15 @@ class PageController extends Controller
 {
     //
 
+
+    /**
+     * PageController constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     public function index()
     {
         if (Auth::check()) {
@@ -33,6 +42,15 @@ class PageController extends Controller
         if (Auth::check()) {
             DBHelpers::setActivity('dashboard visited','User has visited dashboard..');
             return response()->view("dashboard");
+        } else {
+            return response()->redirectTo("");
+        }
+    }
+
+
+    public function profile(){
+        if (Auth::check()) {
+            return response()->view("profile");
         } else {
             return response()->redirectTo("");
         }

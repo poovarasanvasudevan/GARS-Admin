@@ -50,7 +50,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper" ng-controller="maincontroller">
 
     <!-- Header -->
-    @include('layout.maintoolbar')
+    @yield("toolbar")
+
 
             <!-- Sidebar -->
     @include('layout.sidebar')
