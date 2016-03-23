@@ -32,6 +32,18 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/dashboard', 'PageController@dashboard');
     Route::get('/profile', 'PageController@profile');
     Route::get('/logout', 'PageController@logout');
+    Route::get('/getactivity', 'UserController@getActivity');
     Route::get('/getprofile/{abhyasiid}', 'UserController@getProfile');
     Route::post('/loginvalidate','UserController@validateuser');
+    Route::get('/alluser','UserController@getAllUser');
+
+
+
+
+
+
+
+
+
+    Route::get('/demo', 'PageController@demo');
 });

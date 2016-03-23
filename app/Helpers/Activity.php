@@ -15,6 +15,7 @@ class Activity
 {
     public $name;
     public $desc;
+    public $date;
     public $time;
     public $ipaddress;
     public $geo;

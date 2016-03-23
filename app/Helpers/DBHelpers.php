@@ -47,11 +47,18 @@ class DBHelpers
         $newActivity = new Activity();
         $newActivity->name = $name;
         $newActivity->desc = $desc;
-        $newActivity->time = Carbon::now();
+        $newActivity->date = date('d-m-Y');
+        $newActivity->time = date('H:i:s');
         $newActivity->geo = GeoIP::getLocation();
         $newActivity->ipaddress = Request::ip();
 
         array_push($activity, (array)$newActivity);
         Setting::set('activity', $activity);
+    }
+
+    public static function getActivity()
+    {
+        Setting::setPath(self::getStoragePath());
+        return Setting::get('activity');
     }
 }

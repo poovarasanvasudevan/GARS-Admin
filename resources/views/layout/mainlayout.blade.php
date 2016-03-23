@@ -33,7 +33,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="../node_modules/admin-lte/dist/css/skins/skin-purple-light.min.css" rel="stylesheet"
+    <link href="../node_modules/admin-lte/dist/css/skins/_all-skins.min.css" rel="stylesheet"
           type="text/css"/>
 
     <link rel="stylesheet" href="../node_modules/angular-tooltips/dist/angular-tooltips.min.css"/>

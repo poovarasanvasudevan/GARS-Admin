@@ -44,4 +44,12 @@ class UserController extends Controller
             return response()->json(DBHelpers::failure());
         }
     }
+
+    public function getActivity() {
+        return DBHelpers::getActivity();
+    }
+
+    public function getAllUser() {
+        return response()->json(User::where('active','=',true)->get());
+    }
 }
