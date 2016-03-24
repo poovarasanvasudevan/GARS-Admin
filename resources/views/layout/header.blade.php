@@ -29,6 +29,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
             href="../node_modules/admin-lte/css/tiny-calendar.min.css"
             rel="stylesheet"
             type="text/css"/>
+
+    <link
+            href="../node_modules/ng-dialog/css/ngDialog.min.css"
+            rel="stylesheet"
+            type="text/css"/>
     <!-- Theme style -->
     <link
             href="../node_modules/admin-lte/dist/css/AdminLTE.min.css"

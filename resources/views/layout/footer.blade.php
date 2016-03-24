@@ -18,6 +18,7 @@
 <script src="../node_modules/admin-lte/plugins/iCheck/icheck.min.js"></script>
 <script src="../node_modules/myscript/moment.min.js"></script>
 <script src="../node_modules/myscript/moment-range.min.js"></script>
+<script src="../node_modules/ng-dialog/js/ngDialog.min.js"></script>
 <script src="../node_modules/myscript/tiny-calendar.min.js"></script>
 <script src="../node_modules/myscript/main.js"></script>
 <!-- Bootstrap 3.3.2 JS -->

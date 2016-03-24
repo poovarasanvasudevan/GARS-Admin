@@ -98,8 +98,6 @@
                     </div>
 
                     <div class="tab-pane" id="messages">
-
-
                         <div class="row">
                             <div class="col-md-3 " style="position: relative; overflow: hidden; width: auto;">
                                 <div class="search-inp" style="margin-bottom: 5px;">
@@ -181,7 +179,7 @@
                                         <div class="col-md-12 no-padding">
 
                                             <div class="input-group">
-                                                <span class="input-group-btn"><button class="btn btn-flat  bg-purple"><i
+                                                <span class="input-group-btn"><button ng-click="myclick()" class="btn btn-flat  bg-purple"><i
                                                                 class="fa fa-smile-o"></i></button></span>
                                                 <input class="form-control" placeholder="Email" type="email">
                                                   <span class="input-group-btn "><button class="btn btn-flat"><i
@@ -207,32 +205,40 @@
                     </div>
 
 
-                </div>
+                    <div class="tab-pane" id="notification">
+                        <div class="col-md-12">
+                        </div>
 
-                <div class="tab-pane" id="notification">
-                    <div class="col-md-12">
                     </div>
 
+                    <div class="tab-pane" id="accounts">
+
+                    </div>
+                    <!-- /.tab-pane -->
+
+                    <div class="tab-pane" id="settings">
+
+                    </div>
+                    <!-- /.tab-pane -->
+
+                    <div class="tab-pane" id="mailsettings">
+
+                    </div>
                 </div>
-
-                <div class="tab-pane" id="accounts">
-
-                </div>
-                <!-- /.tab-pane -->
-
-                <div class="tab-pane" id="settings">
-
-                </div>
-                <!-- /.tab-pane -->
-
-                <div class="tab-pane" id="mailsettings">
-
-                </div>
+                <!-- /.tab-content -->
             </div>
-            <!-- /.tab-content -->
-        </div>
-        <!-- /.nav-tabs-custom -->
+            <!-- /.nav-tabs-custom -->
 
+        </div>
     </div>
-    </div>
+
+    <script type="text/ng-template" id="templateId">
+        <center>
+            <div class="col-md-6 box">
+                <h1>Template heading</h1>
+                <p>Content goes here</p>
+            </div>
+        </center>
+
+    </script>
 @endsection
