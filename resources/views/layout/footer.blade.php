@@ -16,6 +16,9 @@
 <script src="../node_modules/angular-wizard/dist/angular-wizard.min.js"></script>
 <script src="../node_modules/angular-tooltips/dist/angular-tooltips.min.js"></script>
 <script src="../node_modules/admin-lte/plugins/iCheck/icheck.min.js"></script>
+<script src="../node_modules/myscript/moment.min.js"></script>
+<script src="../node_modules/myscript/moment-range.min.js"></script>
+<script src="../node_modules/myscript/tiny-calendar.min.js"></script>
 <script src="../node_modules/myscript/main.js"></script>
 <!-- Bootstrap 3.3.2 JS -->
 <script src="../node_modules/admin-lte/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

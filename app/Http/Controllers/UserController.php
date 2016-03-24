@@ -7,7 +7,6 @@ use App\Http\Requests;
 use App\User;
 use Auth;
 use Illuminate\Support\Facades\Input;
-use Setting;
 
 class UserController extends Controller
 {
@@ -24,7 +23,7 @@ class UserController extends Controller
             Auth::loginUsingId($user->id);
 
 
-            DBHelpers::setActivity('logged In','User has logged in..');
+            DBHelpers::setActivity('logged In', 'User has logged in..');
             return response()->json(DBHelpers::success());
         } else {
             return response()->json(DBHelpers::failure());
@@ -45,11 +44,13 @@ class UserController extends Controller
         }
     }
 
-    public function getActivity() {
+    public function getActivity()
+    {
         return DBHelpers::getActivity();
     }
 
-    public function getAllUser() {
-        return response()->json(User::where('active','=',true)->get());
+    public function getAllUser()
+    {
+        return response()->json(User::whereActive(true)->where('id', '!=', Auth::user()->id)->orderBy('id')->get());
     }
 }

@@ -24,6 +24,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             href="../node_modules/admin-lte/css/style.css"
             rel="stylesheet"
             type="text/css"/>
+    <link
+            href="../node_modules/admin-lte/css/tiny-calendar.min.css"
+            rel="stylesheet"
+            type="text/css"/>
     <!-- Theme style -->
     <link
             href="../node_modules/admin-lte/dist/css/AdminLTE.min.css"
@@ -46,8 +50,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="fixed sidebar-mini skin-purple-light" ng-app="global">
-<div class="wrapper" ng-controller="maincontroller">
+<body class="fixed sidebar-mini skin-purple-light body" ng-app="global">
+<div class="wrapper " ng-controller="maincontroller">
 
     <!-- Header -->
     @yield("toolbar")
@@ -89,6 +93,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="../node_modules/angular-wizard/dist/angular-wizard.min.js"></script>
 <script src="../node_modules/angular-tooltips/dist/angular-tooltips.min.js"></script>
 <script src="../node_modules/admin-lte/plugins/iCheck/icheck.min.js"></script>
+<script src="../node_modules/myscript/moment.min.js"></script>
+<script src="../node_modules/myscript/moment-range.min.js"></script>
+<script src="../node_modules/myscript/tiny-calendar.min.js"></script>
 <script src="../node_modules/myscript/main.js"></script>
 <!-- Bootstrap 3.3.2 JS -->
 <script src="../node_modules/admin-lte/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

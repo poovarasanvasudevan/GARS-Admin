@@ -16,8 +16,8 @@ return [
     'usernameplaceholder' => 'Abhyasi Id',
     'passwordplaceholder' => 'Password',
     'signinplaceholder' => 'Sign in to start your session',
-    'firstplaceholder' => 'Global',
-    'lastplaceholder' => 'Archive',
+    'firstplaceholder' => 'AVS',
+    'lastplaceholder' => 'Community',
     'forgetpassword' => 'I forgot my password',
     'conditiontip'=>'On clicking this you agree terms and condition defines in Global Archive with respect to this system and admin...',
     'forgetemail'=>'This is an Optional field if you not entered email into the system,But you cannot use email verification method..'
